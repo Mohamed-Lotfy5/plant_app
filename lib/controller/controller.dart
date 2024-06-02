@@ -1,6 +1,8 @@
-import 'package:flutter_application_1/model/fake_data(plant).dart';
-import 'package:flutter_application_1/model/model.dart';
+
 import 'package:get/get.dart';
+
+import '../model/fake_data(plant).dart';
+import '../model/model.dart';
 
 class PlantsController extends GetxController {
   plantmodel model = plantmodel.fromJson(fakeData);
